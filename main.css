@@ -1,0 +1,60 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-size: 100%;
+}
+
+
+.btn {
+  margin: 0 auto;
+	border-radius: 0;
+	border: 1px solid grey;
+	overflow: hidden
+}
+
+#wrapper1 {
+	width: 100vw;
+	height: 100vh;
+	background-color: aqua;
+}
+
+#wrapper {
+	background-color: aqua;
+	height: 100vh;
+	width: 100vw;
+}
+
+@media (max-width:1040px) {
+	#wrapper {
+		height: auto;
+	}
+}
+
+#wedding-title {
+	margin: 10vh auto;
+	padding-top: 10vh;
+	text-align: center;
+	font-size: 38px;
+	font-family: 'Dancing script';
+}
+
+
+/*Story styles*/
+
+.story-title {
+	font-family: 'Indie Flower';
+	font-size: 3vw;
+	margin-top: 10%;
+	border-bottom: 1px solid grey;
+	text-align: center;
+}
+
+.story-talk {
+	font-family: 'Shadows Into Light';
+	font-size: 2.5vw;
+	line-height: 3.5rem;
+	font-weight: 400;
+}
+
+
