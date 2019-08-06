@@ -11,7 +11,11 @@
 	border-radius: 0;
 	border: 1px solid grey;
 	overflow: hidden;
-	color: white;
+	color: slategrey;
+}
+
+.btn:hover {
+	color: darkgrey;
 }
 
 #wrapper, #wrapper2 {
