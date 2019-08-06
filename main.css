@@ -10,23 +10,22 @@
   margin: 0 auto;
 	border-radius: 0;
 	border: 1px solid grey;
-	overflow: hidden
+	overflow: hidden;
+	color: white;
 }
 
-#wrapper1 {
+#wrapper, #wrapper2 {
+	background: url(assets/backgr.jpg) center center no-repeat fixed;
 	width: 100vw;
-	height: 100vh;
-	background-color: aqua;
+	position: relative;
 }
 
-#wrapper {
-	background-color: aqua;
-	height: 100vh;
-	width: 100vw;
+#wrapper2 {
+  height: 100vh;
 }
 
-@media (max-width:1040px) {
-	#wrapper {
+@media (max-height:190px) {
+	#wrapper2 {
 		height: auto;
 	}
 }
@@ -35,8 +34,9 @@
 	margin: 10vh auto;
 	padding-top: 10vh;
 	text-align: center;
-	font-size: 38px;
+	font-size: 7vh;
 	font-family: 'Dancing script';
+	color: goldenrod;
 }
 
 
@@ -45,9 +45,10 @@
 .story-title {
 	font-family: 'Indie Flower';
 	font-size: 3vw;
-	margin-top: 10%;
+	margin-top: 4vh;
 	border-bottom: 1px solid grey;
 	text-align: center;
+	color: bisque;
 }
 
 .story-talk {
@@ -55,6 +56,20 @@
 	font-size: 2.5vw;
 	line-height: 3.5rem;
 	font-weight: 400;
+	color: beige;
 }
+
+.storypic {
+	padding-top: 3vh;
+	padding-bottom: 3vh;
+}
+
+/*wedding styles*/
+
+.wedpic {
+	padding-top: 2vh;
+	padding-bottom: 2vh;
+}
+
 
 
